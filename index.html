@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="app.js" defer></script>
+    <script setup lang="ts" src="app.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <form>
+        <input type="text" name="name" id="name">
+        <input type="number" name="age" id="age">
+<input type="submit" value="Say Hi">
+</form>
+    <div class="greeting"></div>
 </body>
 </html>
